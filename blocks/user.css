@@ -53,12 +53,17 @@
   padding-top: 16px;
 }
 
-.user__add_user {
+.user__add-user {
   box-sizing: border-box;
   width: 150px;
   height: 50px;
   border: 2px white solid;
   border-radius: 2px;
+}
+
+.user__add-user:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .user__plus {
@@ -78,11 +83,6 @@
   position: absolute;
   left: -10px;
   top: 10px;
-}
-
-.user__add_user:hover {
-  opacity: 0.6;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -114,7 +114,7 @@
     text-align: center;
   }
 
-  .user__add_user {
+  .user__add-user {
     width: 282px;
     height: 50px;
     border: 2px white solid;
