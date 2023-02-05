@@ -1,0 +1,133 @@
+.user {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40.5px 0 51px;
+  color: white;
+  display: grid;
+  grid-template-columns: min-content min-content auto min-content;
+  align-items: center;
+  justify-items: end;
+}
+
+.user__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.user__profile {
+  padding-left: 30px;
+}
+
+.user__head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.user__name {
+  margin: 0;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.user__pencil {
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
+}
+
+.user__pencil:hover {
+  opacity: 0.6;
+}
+
+.user__status {
+  margin: 0;
+}
+
+.user__add_user {
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  border: 2px white solid;
+  border-radius: 2px;
+}
+
+.user__plus {
+  background: white;
+  height: 22px;
+  width: 2px;
+  position: relative;
+  left: 74px;
+  top: 14px;
+}
+
+.user__plus:after {
+  content: "";
+  height: 2px;
+  width: 22px;
+  background: white;
+  position: absolute;
+  left: -10px;
+  top: 10px;
+}
+
+.user__add_user:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 0 36px;
+  }
+
+  .user__profile {
+    padding: 0;
+  }
+
+  .user__head {
+    padding: 30px 0 0 41px;
+    gap: 10px;
+  }
+
+  .user__name {
+    font-size: 22px;
+    line-height: 1.2;
+    padding: 0;
+  }
+
+  .user__status {
+    font-size: 14px;
+    padding: 14px 0 36px;
+    text-align: center;
+  }
+
+  .user__add_user {
+    width: 282px;
+    height: 50px;
+    border: 2px white solid;
+    border-radius: 2px;
+  }
+
+  .user__plus {
+    left: 133px;
+    height: 16px;
+    top: 17px;
+  }
+
+  .user__plus::after {
+    width: 16px;
+    left: -7px;
+    top: 7px;
+  }
+
+  .user__pencil {
+    scale: 0.75;
+  }
+}
