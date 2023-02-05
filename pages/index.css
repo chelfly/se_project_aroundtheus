@@ -5,3 +5,24 @@
 @import url(../blocks/cards.css);
 @import url(../blocks/card.css);
 @import url(../blocks/footer.css);
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Inter-Black.ttf);
+}

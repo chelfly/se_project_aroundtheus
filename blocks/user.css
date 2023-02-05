@@ -30,21 +30,27 @@
   font-size: 42px;
   line-height: 48px;
   font-weight: 500;
-  padding-bottom: 16px;
 }
 
-.user__pencil {
+.user__edit {
   width: 24px;
   height: 24px;
   border: 1px solid white;
 }
 
-.user__pencil:hover {
+.user__edit:hover {
   opacity: 0.6;
+}
+
+.user__pencil {
+  position: relative;
+  bottom: 7px;
+  left: 7px;
 }
 
 .user__status {
   margin: 0;
+  padding-top: 16px;
 }
 
 .user__add_user {
@@ -127,7 +133,7 @@
     top: 7px;
   }
 
-  .user__pencil {
+  .user__edit {
     scale: 0.75;
   }
 }
