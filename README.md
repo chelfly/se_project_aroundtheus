@@ -1,17 +1,14 @@
-# Project 3: Around The U.S.
+# Project: Around The U.S.
 
-### Overview
+**_ Overview _**
+Interactive page where users can add and remove photos, like photos of other users, and make a few minor adjustments to their own profile.
 
-- Intro
-- Figma
-- Images
+This responsive website was created using HTML5 and CSS3 based Figma design project. For different screen sizes suitability media queries were used. Basic structure designed via flexbox and grid techologies. The project was organized using BEM file structure.
 
-**Intro**
+**_ Mockup of the webpage for desktop screen _**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+**_ Mockup of the webpage for tablet screen _**
 
-**Figma**
-
-- [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
+**_ Mockup of the webpage for mobile screen _**
 
 https://github.com/chelfly/se_project_aroundtheus
