@@ -18,5 +18,5 @@ This responsive website was created using HTML5 and CSS3 based Figma design proj
 
 <img width="300" alt="mockup mobile" src="https://user-images.githubusercontent.com/77574028/222929378-f562592f-0c32-4b5c-b8d6-5122d2e353c7.png">
 
-https://github.com/chelfly/se_project_aroundtheus
+https://github.com/chelfly/se_project_aroundtheus <br />
 https://chelfly.github.io/se_project_aroundtheus
